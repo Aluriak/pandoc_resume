@@ -1,4 +1,8 @@
-all: html pdf docx rtf
+all: move_to_prod
+
+move_to_prod: html pdf
+	cp resume.html ~/www/home/
+	cp resume.pdf ~/www/home/
 
 pdf: resume.pdf
 resume.pdf: resume.md
