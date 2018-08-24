@@ -2,9 +2,9 @@
 *.log
 *.pdf
 *.html
-resume.tex
 *.swo
 *.swp
 *.docx
 *.rtf
-short_resume.md
+markdown/
+output/
