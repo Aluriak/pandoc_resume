@@ -32,8 +32,9 @@ Scientific Publication
 
 FCA4AI 2018 (workshop at IJCAI/ECAI)
 :    Formal Concept Analysis for Artificial Intelligence (acceptance rate 60%). L. Bourneuf ;
-     An Answer Set Programming Environment for High-Level Specification and Visualization of FCA
-     [link](http://ceur-ws.org/Vol-2149/) [software: biseau](https://gitlab.inria.fr/lbourneu/biseau).
+     An Answer Set Programming Environment for High-Level Specification and Visualization of FCA.
+     links: [publication](http://ceur-ws.org/Vol-2149/), [software](https://gitlab.inria.fr/lbourneu/biseau).
+
 ICFCA 2017
 :    Int. Congress on Formal Concept Analysis (acceptance rate 30%). L. Bourneuf, J. Nicolas ;
      FCA in a Logical Programming Setting for Visualization Oriented (Power) Graph Compression.
