@@ -3,8 +3,8 @@ IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
 
-# all: html pdf docx rtf
-all: build_short html
+#all: html pdf docx rtf
+all: html pdf
 
 pdf: init
 	for f in $(IN_DIR)/*.md; do \
