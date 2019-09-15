@@ -30,15 +30,20 @@ Education
 Scientific Publication
 ----------------------
 
+ICFCA 2019
+:    Int. Congress on Formal Concept Analysis. L. Bourneuf, J. Nicolas ;
+     FCA in a Logical Programming Setting for Visualization Oriented (Power) Graph Compression.
+     [publication](https://link.springer.com/chapter/10.1007/978-3-030-21462-3_18).
+
 FCA4AI 2018 (workshop at IJCAI/ECAI)
 :    Formal Concept Analysis for Artificial Intelligence (acceptance rate 60%). L. Bourneuf ;
      An Answer Set Programming Environment for High-Level Specification and Visualization of FCA.
-     links: [publication](http://ceur-ws.org/Vol-2149/), [software](https://gitlab.inria.fr/lbourneu/biseau).
+     [publication](http://ceur-ws.org/Vol-2149/), [software](https://gitlab.inria.fr/lbourneu/biseau).
 
 ICFCA 2017
 :    Int. Congress on Formal Concept Analysis (acceptance rate 30%). L. Bourneuf, J. Nicolas ;
      FCA in a Logical Programming Setting for Visualization Oriented (Power) Graph Compression.
-     <br>*Best paper award*. [link](https://link.springer.com/chapter/10.1007/978-3-319-59271-8_6).
+     <br>*Best paper award*. [publication](https://link.springer.com/chapter/10.1007/978-3-319-59271-8_6).
 
 
 <!-- Scientific Communication -->
@@ -60,11 +65,11 @@ Blog articles
     * [personal blog](https://lucas.bourneuf.net)
 
 Teaching
-:    git, python and java (master's degree) (2015-2017)
+:    git, python and java (master's degree) (2015-2018)
 :    network (bachelor's degree) (2017)
 
 Movie
-:    Participation to \& organization of [Science-en-Cour[t]s](http://sciences-en-courts.fr/) (2017, 2018)
+:    Participation to \& organization of [Science-en-Cour[t]s](http://sciences-en-courts.fr/) (2017, 2018, 2019)
 
 
 Professional Experience
@@ -91,7 +96,7 @@ Thesis related repositories
 :    [**PowerGrASP:**](https://github.com/aluriak/PowerGrASP) Power Graph compression implementation — Python, ASP
 :    [**BubbleTools:**](https://github.com/aluriak/bubble-tools) Power Graph programmatic handling — Python
 :    [**navicept:**](https://github.com/aluriak/navicept) Implementation of ASP-based lattice navigation in GUI — Python, ASP
-:    [**Clyngor:**](https://github.com/aluriak/clyngor) Embedding of ASP in Python — Python, ASP
+:    [**clyngor:**](https://github.com/aluriak/clyngor) Embedding of ASP in Python — Python, ASP
 :    [**rofetta:**](https://github.com/aluriak/rofetta) Convertion between the main contexts encoding of FCA — Python
 
 
