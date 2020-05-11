@@ -14,11 +14,12 @@ Lucas Bourneuf
 Education
 ---------
 
-2016-2019 (expected)
+2016-2019
 :   **PhD, Computer Science**; Université de Rennes 1, [DYLISS team](http://www.irisa.fr/dyliss)
 
-    *Thesis title: Justifiable graph decomposition to assist biological network understanding*
-    *Supervisor: Dr Jacques Nicolas*
+    "*A search space of graph motifs for graph compression: From Powergraphs to triplet concepts*",
+    defended on December 17, 2019, supervised by *Dr Jacques Nicolas*
+    ([details](/thesis))
 
 2014-2016
 :   **Master Bioinformatique et Génomique**; Université de Rennes 1 (rank=3/36)
