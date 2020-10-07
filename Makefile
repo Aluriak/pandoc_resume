@@ -15,10 +15,7 @@ pdf: init
 			--from markdown --to context \
 			--variable papersize=A4 \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
-		cd $(OUT_DIR); \
-		context $$FILE_NAME.tex; \
-			--result=$$FILE_NAME.pdf > context_$$FILE_NAME.log 2>&1; \
-		cd ..; \
+		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
 
 html: init
@@ -28,7 +25,8 @@ html: init
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
-			--output $(OUT_DIR)/$$FILE_NAME.html $$f; \
+			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
+			--metadata pagetitle=$$FILE_NAME;\
 	done
 
 docx: init
