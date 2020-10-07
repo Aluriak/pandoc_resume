@@ -3,13 +3,9 @@ IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
 
-#all: html pdf docx rtf
-all: html pdf move to prod
-
-
-move_to_prod: html pdf
-	cp resume.html ~/www/home/
-	cp resume.pdf ~/www/home/
+all: html pdf
+all:
+	$(MAKE) -f makefile
 
 pdf: init
 	for f in $(IN_DIR)/*.md; do \
@@ -19,8 +15,10 @@ pdf: init
 			--from markdown --to context \
 			--variable papersize=A4 \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
-		context $(OUT_DIR)/$$FILE_NAME.tex \
-			--result=$(OUT_DIR)/$$FILE_NAME.pdf > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		cd $(OUT_DIR); \
+		context $$FILE_NAME.tex; \
+			--result=$$FILE_NAME.pdf > context_$$FILE_NAME.log 2>&1; \
+		cd ..; \
 	done
 
 html: init
