@@ -110,7 +110,7 @@ ______
 ______
 
 
-2012—2017
+2012—2018
 :    Participant to Hackathon [*Les 24h du code*](https://www.les24hducode.fr) at Le Mans. Subjects: AI, operation research, serial communication, user accessibility, network, testing. Rank=1 since 2017.
 
 ______
