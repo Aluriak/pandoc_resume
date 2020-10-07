@@ -3,9 +3,12 @@ IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
 
-all: html pdf
+all: create_final_mkd html pdf
 all:
 	$(MAKE) -f makefile
+
+create_final_mkd:
+	./build_short_resume.sh
 
 pdf: init
 	for f in $(IN_DIR)/*.md; do \

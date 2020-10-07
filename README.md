@@ -1,6 +1,18 @@
 The Markdown Resume
 ===================
 
+## My instructions
+edit `markdown/base_resume.md`. Resume and its short versions will be generated from it.
+
+To prevent a line in `markdown/base_resume.md` to end in the short version, modify the line so the regex in `long_marker` file matches it.
+
+Then:
+
+    make
+
+It will run the short and regular resume builder, namely `./build_short_resume.sh`, then generate pdf and html files from it.
+
+
 ### Instructions
 
 ```bash
